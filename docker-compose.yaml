@@ -19,7 +19,6 @@ services:
       LIQUIBASE_URL: jdbc:postgresql://postgres:5432/postgres
       LIQUIBASE_USERNAME: postgres
       LIQUIBASE_PASSWORD: postgres
-      LIQUIBASE_CHANGELOG: /liquibase/master.xml
     volumes:
       - ${PWD}/liquibase:/liquibase
     depends_on:
