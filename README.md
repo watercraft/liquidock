@@ -1,1 +1,5 @@
 # liquidock
+
+```
+docker-compose up
+```
